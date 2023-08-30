@@ -1,0 +1,44 @@
+a {
+    text-decoration: none;
+}
+
+.meny{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.meny__link {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.title__1 {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.title__2 {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.catalog{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
