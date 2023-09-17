@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    padding-bottom: 47px;
+}
+
+.center {
+    padding-left: calc(50% - 580px);
+    padding-right: calc(50% - 580px);
+}
+
+
+.header {
+    padding-top: 47px;
+    padding-bottom: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo__header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.header__menu {
+    display: flex;
+    gap: 30px;
+}
+
+.header__link {
+    color: black;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.top__content {
+    display: flex;
+    margin-bottom: 119px;
+    justify-content: flex-start;
+    gap: 41px;
+}
+
+.title {
+    margin-top: 59px;
+    margin-bottom: 17px;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text {
+    color: #888;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.top__button {
+    margin-top: 52px;
+    display: flex;
+    gap: 108px;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    width: 140px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 50px;
+    color: white;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+.text1 {
+    color: #888;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.img {
+    width: 545px;
+    height: 375px;
+}
+
+.logo {
+    margin-top: 97px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.feateres {
+    display: flex;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+
+.item {
+    padding: 30px;
+    padding-top: 40px;
+}
+
+.item2 {
+    padding: 30px;
+    padding-top: 40px;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.item:hover {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.item__title {
+    padding-top: 25px;
+    padding-bottom: 17px;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+}
+
+.item__text {
+    padding-bottom: 25px;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 150%;
+    color: #888;
+}
+
+.item button {
+    font-family: 'Open Sans';
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #000;
+    border: none;
+    outline: none;
+    background-color: #FFF;
+}
+
+.services {
+    background-color: #FAFAFA;
+    padding-bottom: 100px;
+}
+
+.services__title {
+    display: flex;
+    padding-top: 92px;
+    padding-bottom: 54px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services__title h1 {
+    font-family: 'Open Sans';
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+    padding-bottom: 19px;
+}
+
+.services__title p {
+    font-family: 'Open Sans';
+    width: 682px;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #888;
+}
+
+.services__cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.card__high {
+    background-color: #FFFFFF;
+    display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.card__high:hover {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.card__high-title{
+    padding-top: 25px;
+    padding-bottom: 22px;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.card__high-text{
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #AAAAAA;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 39px;
+}
+
+.card__high button {
+    width: 150px;
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 120px;
+    margin-bottom: 50px;
+    padding: 15px;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px; 
+    border: #F25822;   
+}
